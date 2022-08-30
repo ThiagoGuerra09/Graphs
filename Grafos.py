@@ -7,9 +7,9 @@
 -predecessores(vertices para qual representam o começo da relação)
 """
 import re
-# arq = input("Digite o nome do arquivo:\n")
+arq = input("Digite o nome do arquivo:\n")
 entrada = input('Digite o numero do vertice\n')
-file = open('teste2.txt',"r")
+file = open(arq,"r")
 lista = (file.readlines())
 del lista[0]
 lista1=[] 
@@ -24,7 +24,7 @@ for i in lista:
     if i[0] == entrada:
         lista1.append(i[1])
         grausaida+=1
-
+#predecessor
 for n in lista:
     n=n.strip('\n').strip(' ')
     n=re.sub(r"\s+", " ", n)
