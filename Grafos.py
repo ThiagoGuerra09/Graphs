@@ -5,7 +5,6 @@
 -grau de entrada(todas as arestas que saem do vertice)
 -sucessores(vertices para qual são os destinos das relações)
 -predecessores(vertices para qual representam o começo da relação)
-
 """
 import re
 # arq = input("Digite o nome do arquivo:\n")
